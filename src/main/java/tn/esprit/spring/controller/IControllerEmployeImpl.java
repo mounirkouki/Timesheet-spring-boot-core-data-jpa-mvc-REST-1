@@ -28,7 +28,7 @@ public class IControllerEmployeImpl  {
 	public int ajouterEmploye(Employe employe)
 	{
 		iemployeservice.ajouterEmploye(employe);
-		return employe.getId();
+		return employe.getId(s);
 	}
     
 	public void mettreAjourEmailByEmployeId(String email, int employeId) {
